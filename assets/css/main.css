@@ -80,6 +80,9 @@ section {
   color: #2e3135;
 }
 
+
+
+
 .section-header h2:before,
 .section-header h2:after {
   content: "";
@@ -1922,6 +1925,14 @@ section {
   margin: auto;
 }
 
+.hero span {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 56px;
+  font-weight: 700;
+  position: relative;
+  color: var(--color-primary);
+}
 @media (max-width: 768px) {
   .hero .info h2 {
     font-size: 36px;
@@ -2574,13 +2585,17 @@ section {
   color: var(--color-secondary);
   background-color: var(--color-primary);
 }
+.img-fluid_v2{
 
+  height:200px;
+  width: 300px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/dudo.webp") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
