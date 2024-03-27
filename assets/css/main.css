@@ -1,4 +1,15 @@
+/**
+* Template Name: UpConstruction - v1.3.0
+* Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
+/*--------------------------------------------------------------
+# Set main reusable colors and fonts using CSS variables
+# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+--------------------------------------------------------------*/
+/* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Roboto", sans-serif;
@@ -537,7 +548,6 @@ section {
   padding: 30px 0;
 }
 
-
 .get-started .content h3 {
   font-size: 36px;
   color: var(--color-secondary);
@@ -560,7 +570,6 @@ section {
 
 .get-started .content p {
   font-size: 14px;
-
 }
 
 .get-started .php-email-form {
@@ -1780,8 +1789,6 @@ section {
 
 .recent-blog-posts .post-item .post-img img {
   transition: 0.5s;
-  height: 340px;
-  width: 340px;
 }
 
 .recent-blog-posts .post-item .post-date {
@@ -1895,14 +1902,6 @@ section {
 
 .hero .info h2 {
   color: #fff;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  font-size: 56px;
-  font-weight: 700;
-  position: relative;
-}
-.hero .info span {
-  color:var(--color-primary);
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 56px;
@@ -2581,7 +2580,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/dudo1.png") top center no-repeat;
+  background: url("../img/footer-bg.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
